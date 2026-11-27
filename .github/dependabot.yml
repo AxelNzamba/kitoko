@@ -1,0 +1,81 @@
+# Dependabot configuration for INDUS-ERP
+# Documentation: https://docs.github.com/en/code-security/dependabot
+
+version: 2
+
+updates:
+  # npm / Bun dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Africa/Kinshasa"
+    # Label all PRs from Dependabot
+    labels:
+      - "dependencies"
+      - "automated"
+    # Group minor/patch updates together to reduce PR noise
+    groups:
+      radix-ui:
+        patterns:
+          - "@radix-ui/*"
+        update-types:
+          - "minor"
+          - "patch"
+      react:
+        patterns:
+          - "react*"
+          - "@types/react*"
+        update-types:
+          - "minor"
+          - "patch"
+      tanstack:
+        patterns:
+          - "@tanstack/*"
+        update-types:
+          - "minor"
+          - "patch"
+      sentry:
+        patterns:
+          - "@sentry/*"
+        update-types:
+          - "minor"
+          - "patch"
+      testing:
+        patterns:
+          - "@testing-library/*"
+          - "vitest"
+          - "jsdom"
+        update-types:
+          - "minor"
+          - "patch"
+    # Security updates are handled automatically by GitHub
+    # Version updates: only non-major to reduce breaking changes
+    open-pull-requests-limit: 10
+    # reviewers:
+    #   - "username"  # Décommentez et remplacez par le pseudo GitHub du propriétaire
+    # Ignore major version bumps (require manual review)
+    ignore:
+      - dependency-name: "react"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "react-dom"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@tanstack/react-router"
+        update-types: ["version-update:semver-major"]
+      - dependency-name: "@tanstack/react-start"
+        update-types: ["version-update:semver-major"]
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Africa/Kinshasa"
+    labels:
+      - "ci"
+      - "automated"
+    open-pull-requests-limit: 5

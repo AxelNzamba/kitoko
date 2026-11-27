@@ -1,0 +1,1 @@
+import{n as e}from"./use-warehouse-V7-gfT3m.js";function t(){let{selectedWarehouseId:t}=e();function n(e,n=`warehouse_id`){return t&&t!==`all`?e.eq(n,t):e}return{selectedWarehouseId:t,applyFilter:n}}export{t};

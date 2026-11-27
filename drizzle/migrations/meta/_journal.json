@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1790820937454,
+      "tag": "0000_audit_log_modules_and_triggers",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792032849520,
+      "tag": "0001_migration",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793592672253,
+      "tag": "0002_client_credit_debts",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1794086693705,
+      "tag": "0003_add_receptionniste_role",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1794086742525,
+      "tag": "0004_hotel_module_and_read_policies",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1794221145854,
+      "tag": "0005_hotel_workflow_validation_and_staff_assignment",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1794221193815,
+      "tag": "0006_hotel_minibar_catalog_scope",
+      "breakpoints": true
+    }
+  ]
+}

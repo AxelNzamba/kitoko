@@ -1,0 +1,22 @@
+{
+  "name": "INDUS-ERP — Gestion de stock industriel",
+  "short_name": "INDUS-ERP",
+  "description": "Logiciel de gestion de stock industriel : produits, ventes, achats, inventaire, QR codes.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1923",
+  "theme_color": "#e8751a",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "fr-FR",
+  "scope": "/",
+  "prefer_related_applications": false
+}

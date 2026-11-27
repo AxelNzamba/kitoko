@@ -1,0 +1,264 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * INDUS-ERP — Design system
+ * Palette: Navy industriel + orange sécurité + slate neutres
+ * Typographie: Inter (UI) + JetBrains Mono (données/chiffres)
+ */
+
+@theme inline {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  /* Fond global : slate-50 */
+  --background: oklch(0.984 0.005 247);
+  --foreground: oklch(0.2 0.04 265);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.2 0.04 265);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.2 0.04 265);
+
+  /* Navy industriel */
+  --primary: oklch(0.2 0.04 265);
+  --primary-foreground: oklch(0.98 0.003 247);
+
+  --secondary: oklch(0.96 0.008 247);
+  --secondary-foreground: oklch(0.2 0.04 265);
+
+  --muted: oklch(0.96 0.008 247);
+  --muted-foreground: oklch(0.5 0.03 257);
+
+  /* Orange sécurité industrielle */
+  --accent: oklch(0.7 0.19 45);
+  --accent-foreground: oklch(0.99 0.005 100);
+
+  --destructive: oklch(0.58 0.24 27);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --success: oklch(0.65 0.16 145);
+  --success-foreground: oklch(0.99 0 0);
+
+  --warning: oklch(0.75 0.16 75);
+  --warning-foreground: oklch(0.2 0.04 265);
+
+  --border: oklch(0.92 0.01 255);
+  --input: oklch(0.92 0.01 255);
+  --ring: oklch(0.7 0.19 45);
+
+  /* Sidebar = navy foncé */
+  --sidebar: oklch(0.2 0.04 265);
+  --sidebar-foreground: oklch(0.85 0.02 250);
+  --sidebar-primary: oklch(0.7 0.19 45);
+  --sidebar-primary-foreground: oklch(0.99 0.005 100);
+  --sidebar-accent: oklch(0.27 0.04 260);
+  --sidebar-accent-foreground: oklch(0.98 0.003 247);
+  --sidebar-border: oklch(1 0 0 / 8%);
+  --sidebar-ring: oklch(0.7 0.19 45);
+}
+
+.dark {
+  --background: oklch(0.15 0.03 265);
+  --foreground: oklch(0.98 0.003 247);
+  --card: oklch(0.2 0.04 265);
+  --card-foreground: oklch(0.98 0.003 247);
+  --popover: oklch(0.2 0.04 265);
+  --popover-foreground: oklch(0.98 0.003 247);
+  --primary: oklch(0.98 0.003 247);
+  --primary-foreground: oklch(0.2 0.04 265);
+  --secondary: oklch(0.27 0.04 260);
+  --secondary-foreground: oklch(0.98 0.003 247);
+  --muted: oklch(0.27 0.04 260);
+  --muted-foreground: oklch(0.7 0.04 257);
+  --accent: oklch(0.7 0.19 45);
+  --accent-foreground: oklch(0.99 0.005 100);
+  --destructive: oklch(0.7 0.19 22);
+  --destructive-foreground: oklch(0.98 0.003 247);
+  --success: oklch(0.65 0.16 145);
+  --success-foreground: oklch(0.99 0 0);
+  --warning: oklch(0.75 0.16 75);
+  --warning-foreground: oklch(0.2 0.04 265);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.7 0.19 45);
+  --sidebar: oklch(0.15 0.03 265);
+  --sidebar-foreground: oklch(0.98 0.003 247);
+  --sidebar-primary: oklch(0.7 0.19 45);
+  --sidebar-primary-foreground: oklch(0.99 0.005 100);
+  --sidebar-accent: oklch(0.27 0.04 260);
+  --sidebar-accent-foreground: oklch(0.98 0.003 247);
+  --sidebar-border: oklch(1 0 0 / 10%);
+  --sidebar-ring: oklch(0.7 0.19 45);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  .font-mono,
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* ============================================================
+ * Animations et micro-interactions UI
+ * ============================================================ */
+
+/* Animation d'entrée pour les pages */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-page-enter {
+  animation: page-enter 0.3s ease-out both;
+}
+
+/* Animation d'entrée différée pour les lignes de tableau */
+@keyframes row-fade-in {
+  from { opacity: 0; transform: translateX(-6px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.animate-row-enter {
+  animation: row-fade-in 0.25s ease-out both;
+}
+
+.animate-row-enter:nth-child(1) { animation-delay: 0.02s; }
+.animate-row-enter:nth-child(2) { animation-delay: 0.04s; }
+.animate-row-enter:nth-child(3) { animation-delay: 0.06s; }
+.animate-row-enter:nth-child(4) { animation-delay: 0.08s; }
+.animate-row-enter:nth-child(5) { animation-delay: 0.10s; }
+.animate-row-enter:nth-child(6) { animation-delay: 0.12s; }
+.animate-row-enter:nth-child(7) { animation-delay: 0.14s; }
+.animate-row-enter:nth-child(8) { animation-delay: 0.16s; }
+.animate-row-enter:nth-child(9) { animation-delay: 0.18s; }
+.animate-row-enter:nth-child(10) { animation-delay: 0.20s; }
+
+/* Animation pour les cartes KPI */
+@keyframes card-pop {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+.animate-card-pop {
+  animation: card-pop 0.25s ease-out both;
+}
+
+/* Squelette de chargement (skeleton pulse) */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 0.4; }
+  50%      { opacity: 0.7; }
+}
+
+.animate-skeleton {
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  border-radius: 4px;
+  background: var(--color-muted);
+}
+
+/* Badge de notification qui pulse */
+@keyframes pulse-badge {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.15); }
+}
+
+.animate-pulse-badge {
+  animation: pulse-badge 2s ease-in-out infinite;
+}
+
+/* Transition douce pour le hover des boutons */
+button,
+a {
+  transition: all 0.15s ease;
+}
+
+/* Hover élévation pour les cards */
+.card-hover {
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted-foreground);
+}

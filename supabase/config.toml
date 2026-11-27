@@ -1,0 +1,27 @@
+project_id = "iwvyqwgugqfrulkfjccp"
+
+[auth]
+# URL de l'application : les liens des emails (récupération de mot de passe,
+# confirmation d'inscription) redirigent vers cette adresse.
+# Doit correspondre au port du serveur de dev Vite (8080).
+site_url = "http://127.0.0.1:8080"
+# Wildcards requis : les liens email redirigent vers /reset-password (avec un chemin),
+# une URL exacte sans chemin serait rejetée par GoTrue (fallback site_url racine).
+additional_redirect_urls = ["http://localhost:8080/**", "http://127.0.0.1:8080/**"]
+# Garde-fou serveur aligné sur la politique Zod de src/lib/password-policy.ts :
+# 8 caractères min + lettres majuscules/minuscules et chiffres requis.
+# La validation Zod donne un message FR clair AVANT l'appel réseau ; le serveur
+# reste le garant ultime.
+minimum_password_length = 8
+password_requirements = "lower_upper_letters_digits"
+
+[auth.email]
+# Confirmation par email activée pour refléter le comportement de production :
+# un nouvel inscrit doit cliquer le lien reçu (capturé par Mailpit en local)
+# avant de pouvoir se connecter. (Désactivable ponctuellement si besoin.)
+enable_confirmations = true
+
+[analytics]
+# Désactivé : sur Windows, analytics (logflare) exige le daemon Docker exposé
+# sur tcp://localhost:2375 et bloque le démarrage de toute la stack sinon.
+enabled = false

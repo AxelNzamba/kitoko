@@ -1,0 +1,24 @@
+{
+  "results": {
+    "auth: connexion (run3)": "✅",
+    "scanner: après inventaire": "✅ page OK",
+    "scanner: recherche SKU": "✅",
+    "page /dashboard": "✅ (Tableau de bord opérationnel)",
+    "page /historique-produit": "✅ (Historique produit)",
+    "page /emplacements": "✅ (Entrepôts & Emplacements)",
+    "page /certificats": "✅ (Certificats)",
+    "page /commandes-fournisseurs": "✅ (Commandes fournisseurs)",
+    "page /transferts": "✅ (Transferts entre entrepôts)",
+    "page /terrain": "✅ (Mode terrain)",
+    "page /achats": "✅ (Achats)",
+    "page /retours-fournisseurs": "✅ (Retours fournisseurs)",
+    "page /avoirs": "✅ (Avoirs)",
+    "page /sav": "✅ (SAV)",
+    "page /rapports": "✅ (Rapports)",
+    "page /utilisateurs": "✅ (Utilisateurs)",
+    "page /parametres": "✅ (Paramètres)",
+    "page /synchronisation": "✅ (Centre de synchronisation)",
+    "auth: déconnexion": "✅",
+    "résumé pageErrors": "0"
+  }
+}

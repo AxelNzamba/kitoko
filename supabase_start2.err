@@ -1,0 +1,267 @@
+17.6.1.167: Pulling from supabase/postgres
+v1.72.1: Pulling from supabase/storage-api
+v1.74.3: Pulling from supabase/edge-runtime
+2026.08.24-sha-8ec45b2: Pulling from supabase/studio
+1.50.6: Pulling from supabase/logflare
+ba9e24d39072: Pulling fs layer
+662b1f44f1ee: Pulling fs layer
+a475eb3dea0e: Pulling fs layer
+3beb08423869: Pulling fs layer
+b0ae81186c2e: Pulling fs layer
+e78d4f5eb788: Pulling fs layer
+e6ebfdadbe1a: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+cf90c4f46474: Pulling fs layer
+bcd5e37a1649: Pulling fs layer
+8940131c5b1d: Pulling fs layer
+855ade7b6bf0: Pulling fs layer
+1d421926034e: Pulling fs layer
+4170e338858f: Pulling fs layer
+162486ca1388: Pulling fs layer
+fbaa7199dd0a: Pulling fs layer
+e444c598c86a: Pulling fs layer
+3e6edc3d31e7: Pulling fs layer
+9d5e55342dd4: Pulling fs layer
+10da4f08e924: Pulling fs layer
+cdce04a9f44e: Pulling fs layer
+a63b0a6c41d3: Pulling fs layer
+30a5784d0aa0: Pulling fs layer
+b6f5a52d8af7: Pulling fs layer
+a4ba2bad4007: Pulling fs layer
+387efecceb88: Pulling fs layer
+626fb93d4c01: Pulling fs layer
+ed2ce5a4e547: Pulling fs layer
+567297745d07: Pulling fs layer
+8e6c5c97bf68: Pulling fs layer
+49013e4e5c62: Pulling fs layer
+90d34ed4b947: Pulling fs layer
+fff24f347ea3: Pulling fs layer
+04d3f12c3216: Pulling fs layer
+78378484af1e: Pulling fs layer
+c6f3a61d8686: Pulling fs layer
+0cd66708c4f2: Pulling fs layer
+91a015449626: Pulling fs layer
+f456fb129148: Pulling fs layer
+f53a344a92f3: Pulling fs layer
+be454d00abf2: Pulling fs layer
+5736866015f8: Pulling fs layer
+6fd202ee6889: Pulling fs layer
+0eb861f233e4: Pulling fs layer
+39732d1dd9ac: Pulling fs layer
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+unexpected EOF
+Retrying after 4s: public.ecr.aws/supabase/postgres:17.6.1.167
+Retrying after 4s: public.ecr.aws/supabase/storage-api:v1.72.1
+Retrying after 4s: public.ecr.aws/supabase/studio:2026.08.24-sha-8ec45b2
+Retrying after 4s: public.ecr.aws/supabase/logflare:1.50.6
+Retrying after 4s: public.ecr.aws/supabase/edge-runtime:v1.74.3
+17.6.1.167: Pulling from supabase/postgres
+v1.72.1: Pulling from supabase/storage-api
+1.50.6: Pulling from supabase/logflare
+v1.74.3: Pulling from supabase/edge-runtime
+2026.08.24-sha-8ec45b2: Pulling from supabase/studio
+ba9e24d39072: Pulling fs layer
+662b1f44f1ee: Pulling fs layer
+a475eb3dea0e: Pulling fs layer
+e6ebfdadbe1a: Pulling fs layer
+cf90c4f46474: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+bcd5e37a1649: Pulling fs layer
+162486ca1388: Pulling fs layer
+3e6edc3d31e7: Pulling fs layer
+9d5e55342dd4: Pulling fs layer
+10da4f08e924: Pulling fs layer
+cdce04a9f44e: Pulling fs layer
+a63b0a6c41d3: Pulling fs layer
+30a5784d0aa0: Pulling fs layer
+387efecceb88: Pulling fs layer
+626fb93d4c01: Pulling fs layer
+4170e338858f: Pulling fs layer
+ed2ce5a4e547: Pulling fs layer
+567297745d07: Pulling fs layer
+90d34ed4b947: Pulling fs layer
+fff24f347ea3: Pulling fs layer
+b6f5a52d8af7: Pulling fs layer
+a4ba2bad4007: Pulling fs layer
+49013e4e5c62: Pulling fs layer
+91a015449626: Pulling fs layer
+04d3f12c3216: Pulling fs layer
+78378484af1e: Pulling fs layer
+c6f3a61d8686: Pulling fs layer
+0cd66708c4f2: Pulling fs layer
+f456fb129148: Pulling fs layer
+e444c598c86a: Pulling fs layer
+8e6c5c97bf68: Pulling fs layer
+fbaa7199dd0a: Pulling fs layer
+39732d1dd9ac: Pulling fs layer
+6fd202ee6889: Pulling fs layer
+0eb861f233e4: Pulling fs layer
+f53a344a92f3: Pulling fs layer
+failed to copy: httpReadSeeker: failed open: failed to do request: Get "https://public.ecr.aws/v2/supabase/postgres/blobs/sha256:3e6edc3d31e73a596d8c74f3778454a687512fce643163f019af9f5748af20bf": net/http: TLS handshake timeout
+Retrying after 8s: public.ecr.aws/supabase/postgres:17.6.1.167
+Error response from daemon: failed to resolve reference "public.ecr.aws/supabase/postgres:17.6.1.167": failed to do request: Head "https://public.ecr.aws/v2/supabase/postgres/manifests/17.6.1.167": net/http: TLS handshake timeout
+unexpected EOF
+unexpected EOF
+unexpected EOF
+error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.53/images/create?fromImage=ghcr.io%2Fsupabase%2Fpostgres&tag=17.6.1.167": EOF
+unexpected EOF
+Retrying after 8s: public.ecr.aws/supabase/storage-api:v1.72.1
+Retrying after 8s: public.ecr.aws/supabase/logflare:1.50.6
+Retrying after 8s: public.ecr.aws/supabase/edge-runtime:v1.74.3
+Retrying after 4s: ghcr.io/supabase/postgres:17.6.1.167
+Retrying after 8s: public.ecr.aws/supabase/studio:2026.08.24-sha-8ec45b2
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 8s: ghcr.io/supabase/postgres:17.6.1.167
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 4s: ghcr.io/supabase/logflare:1.50.6
+Retrying after 4s: ghcr.io/supabase/storage-api:v1.72.1
+Retrying after 4s: ghcr.io/supabase/edge-runtime:v1.74.3
+Retrying after 4s: ghcr.io/supabase/studio:2026.08.24-sha-8ec45b2
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 8s: ghcr.io/supabase/logflare:1.50.6
+Retrying after 8s: ghcr.io/supabase/storage-api:v1.72.1
+Retrying after 8s: ghcr.io/supabase/edge-runtime:v1.74.3
+Retrying after 8s: ghcr.io/supabase/studio:2026.08.24-sha-8ec45b2
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 4s: supabase/postgres:17.6.1.167
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 8s: supabase/postgres:17.6.1.167
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 4s: supabase/storage-api:v1.72.1
+Retrying after 4s: supabase/logflare:1.50.6
+Retrying after 4s: supabase/studio:2026.08.24-sha-8ec45b2
+Retrying after 4s: supabase/edge-runtime:v1.74.3
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Retrying after 8s: supabase/storage-api:v1.72.1
+Retrying after 8s: supabase/logflare:1.50.6
+Retrying after 8s: supabase/edge-runtime:v1.74.3
+Retrying after 8s: supabase/studio:2026.08.24-sha-8ec45b2
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to pull docker image from all registries: public.ecr.aws/supabase/postgres:17.6.1.167 attempt 1: 17.6.1.167: Pulling from supabase/postgres
+4170e338858f: Pulling fs layer
+162486ca1388: Pulling fs layer
+fbaa7199dd0a: Pulling fs layer
+e444c598c86a: Pulling fs layer
+3e6edc3d31e7: Pulling fs layer
+9d5e55342dd4: Pulling fs layer
+10da4f08e924: Pulling fs layer
+cdce04a9f44e: Pulling fs layer
+a63b0a6c41d3: Pulling fs layer
+30a5784d0aa0: Pulling fs layer
+b6f5a52d8af7: Pulling fs layer
+a4ba2bad4007: Pulling fs layer
+387efecceb88: Pulling fs layer
+626fb93d4c01: Pulling fs layer
+ed2ce5a4e547: Pulling fs layer
+567297745d07: Pulling fs layer
+8e6c5c97bf68: Pulling fs layer
+49013e4e5c62: Pulling fs layer
+90d34ed4b947: Pulling fs layer
+fff24f347ea3: Pulling fs layer
+04d3f12c3216: Pulling fs layer
+78378484af1e: Pulling fs layer
+c6f3a61d8686: Pulling fs layer
+0cd66708c4f2: Pulling fs layer
+91a015449626: Pulling fs layer
+f456fb129148: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/postgres:17.6.1.167 attempt 2: 17.6.1.167: Pulling from supabase/postgres
+162486ca1388: Pulling fs layer
+3e6edc3d31e7: Pulling fs layer
+9d5e55342dd4: Pulling fs layer
+10da4f08e924: Pulling fs layer
+cdce04a9f44e: Pulling fs layer
+a63b0a6c41d3: Pulling fs layer
+30a5784d0aa0: Pulling fs layer
+387efecceb88: Pulling fs layer
+626fb93d4c01: Pulling fs layer
+4170e338858f: Pulling fs layer
+ed2ce5a4e547: Pulling fs layer
+567297745d07: Pulling fs layer
+90d34ed4b947: Pulling fs layer
+fff24f347ea3: Pulling fs layer
+b6f5a52d8af7: Pulling fs layer
+a4ba2bad4007: Pulling fs layer
+49013e4e5c62: Pulling fs layer
+91a015449626: Pulling fs layer
+04d3f12c3216: Pulling fs layer
+78378484af1e: Pulling fs layer
+c6f3a61d8686: Pulling fs layer
+0cd66708c4f2: Pulling fs layer
+f456fb129148: Pulling fs layer
+e444c598c86a: Pulling fs layer
+8e6c5c97bf68: Pulling fs layer
+fbaa7199dd0a: Pulling fs layer
+failed to copy: httpReadSeeker: failed open: failed to do request: Get "https://public.ecr.aws/v2/supabase/postgres/blobs/sha256:3e6edc3d31e73a596d8c74f3778454a687512fce643163f019af9f5748af20bf": net/http: TLS handshake timeout; public.ecr.aws/supabase/postgres:17.6.1.167 attempt 3: Error response from daemon: failed to resolve reference "public.ecr.aws/supabase/postgres:17.6.1.167": failed to do request: Head "https://public.ecr.aws/v2/supabase/postgres/manifests/17.6.1.167": net/http: TLS handshake timeout; ghcr.io/supabase/postgres:17.6.1.167 attempt 1: error during connect: Post "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/v1.53/images/create?fromImage=ghcr.io%2Fsupabase%2Fpostgres&tag=17.6.1.167": EOF; ghcr.io/supabase/postgres:17.6.1.167 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/postgres:17.6.1.167 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/postgres:17.6.1.167 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/postgres:17.6.1.167 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/postgres:17.6.1.167 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to pull docker image from all registries: public.ecr.aws/supabase/logflare:1.50.6 attempt 1: 1.50.6: Pulling from supabase/logflare
+a475eb3dea0e: Pulling fs layer
+3beb08423869: Pulling fs layer
+b0ae81186c2e: Pulling fs layer
+e78d4f5eb788: Pulling fs layer
+e6ebfdadbe1a: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+cf90c4f46474: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/logflare:1.50.6 attempt 2: 1.50.6: Pulling from supabase/logflare
+a475eb3dea0e: Pulling fs layer
+e6ebfdadbe1a: Pulling fs layer
+cf90c4f46474: Pulling fs layer
+4f4fb700ef54: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/logflare:1.50.6 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/logflare:1.50.6 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/logflare:1.50.6 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/logflare:1.50.6 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/logflare:1.50.6 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/logflare:1.50.6 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/logflare:1.50.6 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to pull docker image from all registries: public.ecr.aws/supabase/storage-api:v1.72.1 attempt 1: v1.72.1: Pulling from supabase/storage-api
+f53a344a92f3: Pulling fs layer
+be454d00abf2: Pulling fs layer
+5736866015f8: Pulling fs layer
+6fd202ee6889: Pulling fs layer
+0eb861f233e4: Pulling fs layer
+39732d1dd9ac: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/storage-api:v1.72.1 attempt 2: v1.72.1: Pulling from supabase/storage-api
+39732d1dd9ac: Pulling fs layer
+6fd202ee6889: Pulling fs layer
+0eb861f233e4: Pulling fs layer
+f53a344a92f3: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/storage-api:v1.72.1 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/storage-api:v1.72.1 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/storage-api:v1.72.1 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/storage-api:v1.72.1 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/storage-api:v1.72.1 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/storage-api:v1.72.1 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/storage-api:v1.72.1 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to pull docker image from all registries: public.ecr.aws/supabase/studio:2026.08.24-sha-8ec45b2 attempt 1: 2026.08.24-sha-8ec45b2: Pulling from supabase/studio
+bcd5e37a1649: Pulling fs layer
+8940131c5b1d: Pulling fs layer
+855ade7b6bf0: Pulling fs layer
+1d421926034e: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/studio:2026.08.24-sha-8ec45b2 attempt 2: 2026.08.24-sha-8ec45b2: Pulling from supabase/studio
+bcd5e37a1649: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/studio:2026.08.24-sha-8ec45b2 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/studio:2026.08.24-sha-8ec45b2 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/studio:2026.08.24-sha-8ec45b2 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/studio:2026.08.24-sha-8ec45b2 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/studio:2026.08.24-sha-8ec45b2 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/studio:2026.08.24-sha-8ec45b2 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/studio:2026.08.24-sha-8ec45b2 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+failed to pull docker image from all registries: public.ecr.aws/supabase/edge-runtime:v1.74.3 attempt 1: v1.74.3: Pulling from supabase/edge-runtime
+ba9e24d39072: Pulling fs layer
+662b1f44f1ee: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/edge-runtime:v1.74.3 attempt 2: v1.74.3: Pulling from supabase/edge-runtime
+ba9e24d39072: Pulling fs layer
+662b1f44f1ee: Pulling fs layer
+unexpected EOF; public.ecr.aws/supabase/edge-runtime:v1.74.3 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/edge-runtime:v1.74.3 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/edge-runtime:v1.74.3 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; ghcr.io/supabase/edge-runtime:v1.74.3 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/edge-runtime:v1.74.3 attempt 1: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/edge-runtime:v1.74.3 attempt 2: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.; supabase/edge-runtime:v1.74.3 attempt 3: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+Docker Desktop is a prerequisite for local development. Follow the official docs to install: https://docs.docker.com/desktop
+Try rerunning the command with --debug to troubleshoot the error.

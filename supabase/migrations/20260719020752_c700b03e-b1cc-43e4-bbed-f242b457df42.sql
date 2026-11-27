@@ -1,0 +1,1 @@
+ALTER VIEW public.lot_stock SET (security_invoker = on);
